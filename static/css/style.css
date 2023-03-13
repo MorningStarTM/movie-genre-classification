@@ -1,5 +1,6 @@
 body {
     background-color: rgb(1, 65, 86);
+    background-image: url("https://www.thepcdoctor.com.au/wp-content/uploads/2020/12/Sci-Fi-Movies.jpg");
   }
 
 h1 {
@@ -10,8 +11,13 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(13, 30, 36);
-    border: none;
+    height: 200px;
+    background: rgba(87, 140, 204, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(87, 140, 204, 0.29);
     color: aliceblue;
     font-size: large;
 }
@@ -27,7 +33,7 @@ textarea {
   }
 
 button {
-    background-color: rgb(13, 30, 36);
+    background-color: transparent;
     border: none;
     
 }
