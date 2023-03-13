@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-0kR1fAAVlD9gOqoV7nvZ+HhbeC7Byg3FJ6vLxslhNzCpH+NU/jjT6nJic6TcB6UjQr9bV7vgsQ2JZm7+US3qGw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 
     <title>Document</title>
 </head>
 <body>
     <h1>Movie Genre Classification</h1>
-    <textarea name="text" id="" cols="50" rows="10" placeholder="type here about movie description"></textarea>
-    <button class="paper-plane-btn"></button>
+    <div class="text-center">
+        <textarea name="text" id="" cols="50" rows="10" placeholder="type here about movie description"></textarea>
+    </div>
+    
+    <button class="paper-plane-btn"><img src="D:\github_clone\movie-genre-classification\files\images\paper-plane.png" alt="button icon" /></button>
 
 </body>
 </html>
