@@ -10,4 +10,29 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(13, 30, 36);
+    border: none;
+    color: aliceblue;
+    font-size: large;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 37%;
+    left: 64%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+  }
+
+button {
+    background-color: rgb(13, 30, 36);
+    border: none;
+    
+}
+
+button:hover {
+    background-color: aliceblue;
+    border-radius: 2px;
 }
